@@ -1,8 +1,9 @@
 var path = require("path")
 const express = require("express")
 const mockAPIResponse = require("./mockAPI.js")
-
-const app = express()
+const cors = require("cors") // import cors
+const app = express() // your express app instance
+app.use(cors()) // Use it as the middleware
 
 app.use(express.static("dist"))
 

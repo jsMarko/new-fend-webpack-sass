@@ -12,3 +12,91 @@ section {
    max-width: 800px;
    margin: 50px auto;
 }
+
+#outPut2 {
+   width: 295px;
+   padding: 15px 12px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   border: 1px solid black;
+}
+
+#myInfo {
+   font-size: 2rem;
+}
+
+#weather {
+   display: grid;
+   height: 400px;
+   background-color: #9ae2fa;
+   border: 1px solid black;
+}
+
+#result-wrapper {
+   width: 630px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 10px;
+   padding: 10px;
+   margin-top: 100px;
+   margin-left: 50px;
+   border: 1px solid black;
+}
+
+.gBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#grid-1 {
+   font-size: 2rem;
+
+   padding: 10px;
+}
+
+#grid-2 {
+   /* work on grid */
+   align-items: flex-start;
+   padding: 0;
+   /* Nested Grid inside grid-2 */
+   display: grid;
+}
+
+#mainTemp {
+   font-size: 3rem;
+}
+
+#feelsLike {
+   font-size: 1.4rem;
+}
+
+#grid-3 {
+   /* Description ie Overcast Clouds */
+   text-transform: capitalize;
+   font-size: 1.6rem;
+}
+
+#grid-4 {
+   /* Humidity */
+   font-size: 1.4rem;
+}
+
+#grid-5 {
+   background: #3b529e;
+   color: #f5f5f5;
+   height: 80px;
+   align-self: flex-end;
+   font-size: 2rem;
+}
+
+#icon {
+   width: 80px;
+   height: 80px;
+   padding: 5px;
+   background-position: 80% center;
+   margin-right: 15px;
+   /* border: 1px solid red; */
+}
